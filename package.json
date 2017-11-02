@@ -1,0 +1,31 @@
+{
+  "name": "elm-sandbox",
+  "version": "1.0.0",
+  "description": "Elm事始め。",
+  "main": "main.js",
+  "dependencies": {
+    "elm-format": "^0.6.1-alpha"
+  },
+  "devDependencies": {
+    "elm": "^0.18.0",
+    "elm-analyse": "^0.11.0",
+    "elm-test": "^0.18.9"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "elm-format": "elm-format . --yes",
+    "elm-make": "elm-make",
+    "elm-analyse": "elm-analyse"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wreulicke/elm-sandbox.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wreulicke/elm-sandbox/issues"
+  },
+  "homepage": "https://github.com/wreulicke/elm-sandbox#readme"
+}
